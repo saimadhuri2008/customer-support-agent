@@ -3,7 +3,6 @@
 [![ci](https://github.com/nitanandsinghupw/langgraph-support-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/nitanandsinghupw/langgraph-support-agent/actions/workflows/ci.yml)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1.2-1C3C3C)
-![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 A reference implementation of an AI support agent that's safe to connect to real systems. It looks up
 orders, tracks shipments, cancels orders and issues refunds through tools, but **the model never decides
@@ -168,6 +167,3 @@ This is a reference implementation. Before running it for real:
 - Add tracing (LangSmith or OpenTelemetry) and alert on escalations, denied refunds and loop stops.
 - Grow the scenario set from real conversations and run it against the production model in CI.
 
-## License
-
-[MIT](LICENSE)
