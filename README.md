@@ -1,8 +1,5 @@
 # Customer Support Agent with LangGraph
 
-[![ci](https://github.com/nitanandsinghupw/langgraph-support-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/nitanandsinghupw/langgraph-support-agent/actions/workflows/ci.yml)
-![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB)
-![LangGraph](https://img.shields.io/badge/LangGraph-1.2-1C3C3C)
 
 A reference implementation of an AI support agent that's safe to connect to real systems. It looks up
 orders, tracks shipments, cancels orders and issues refunds through tools, but **the model never decides
